@@ -12,7 +12,7 @@ part_type_speed(ptcl,2, 3, 0, 1);
 part_type_color1(ptcl, c_white);
 
 
-part_type_life(ptcl, 15, lifeMax);
+part_type_life(ptcl, 5, lifeMax);
 part_type_alpha2(ptcl, 1, 0.8);
 part_type_size(ptcl, ptclsize * 0.5, ptclsize, -0.003 , 0);
 part_type_direction(ptcl, 0, 359, 0, 0);

@@ -2,7 +2,7 @@
     "id": "c0bd2a7f-62bb-4e66-8b6f-e0ab6774599f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_ball",
+    "name": "spr_angry_ball",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "17de6340-f7c1-4c92-9ee2-a9971144fcfb",
+            "Value": {
+                "id": "b9050498-6534-46fd-8ccd-bc2fdaf76ee5",
+                "resourcePath": "sprites\\spr_bouncy_ball\\spr_bouncy_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1b375033-97d8-4192-bab2-27875e2d0121",
             "Value": {
                 "id": "3b85cb85-051c-4add-a131-d4a8b5d0d528",
@@ -362,7 +370,7 @@
             "Key": "c0bd2a7f-62bb-4e66-8b6f-e0ab6774599f",
             "Value": {
                 "id": "68d7512b-a7a8-4fc4-9390-840720fc468f",
-                "resourcePath": "sprites\\spr_ball\\spr_ball.yy",
+                "resourcePath": "sprites\\spr_angry_ball\\spr_angry_ball.yy",
                 "resourceType": "GMSprite"
             }
         },
