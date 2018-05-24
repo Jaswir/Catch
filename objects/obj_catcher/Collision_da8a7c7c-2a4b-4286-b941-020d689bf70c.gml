@@ -12,30 +12,34 @@ if(obj_gm.pushaway){
 
 	with(obj_ball){
 		if(active){
-			score++;
-			audio_play_sound(snd_score, 1, false);
+			
+			if(obj_gm.pushbackdelay > 1){
+				score++;
+				var sound = audio_play_sound(snd_score, 1, false);
+				audio_sound_pitch(sound, 1 + score * 0.1);
+			}
 			speed = 0;
 			spd = 0.0;		
 			active = false;
 		}
 	}
 	
-	alarm[0] = obj_gm.pushbackdelay;
+	if(obj_ball.lifes == 0){
+		obj_ball.active = true;
+		obj_gm.alarm[0] = 1;
+		alarm[11] = 1;	
+		exit;
+	}
+
+	
+
+	alarm[0] = obj_gm.pushbackdelay
+	obj_gm.pushbackdelay = 1;
+	obj_ball.lifes--;
 	
 	exit;	
 }
 
-with(obj_ball){
-		
-		if(active){
-			score++;
-			audio_play_sound(snd_score, 1, false);
-			speed = 0;
-			spd = 0.0;		
-			alarm[0] = 15;
-			active = false;	
-		}
-}
-
+alarm[11] = 1;
 
 

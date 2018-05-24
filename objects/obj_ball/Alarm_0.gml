@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Destroy delay upon catch
 // You can write your code in this editor
 
 instance_destroy();

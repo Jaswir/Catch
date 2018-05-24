@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 
-alarm[2] = obj_gm.losescoredelay;
+audio_play_sound(snd_losescore, 1, false);
+score --;
 speed = 0;
+
 
 
