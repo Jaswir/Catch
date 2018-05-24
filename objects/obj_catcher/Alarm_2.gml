@@ -8,7 +8,4 @@ audio_sound_pitch(sound, 0.5 + score * 0.1);
 
 if(score < 1) alarm[2] = 5;
 		
-else{
-	audio_play_sound(snd_angry, 1, false);
-	obj_ball.image_speed = 2;	
-}
+else obj_ball.alarm[11] = 25;
