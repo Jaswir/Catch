@@ -1,12 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!visible) exit;
+
+if(obj_gm.rage) exit;	
 if(caught) exit
 
 
 image_index = 1;
 caught = true;
+
+
+if(obj_gm.bounce){
+	
+	with(obj_ball){
+			speed = 0;
+			spd = 0.0;		
+			alarm[2] = 1;
+		
+	}
+}
 
 if(obj_gm.pushaway){
 

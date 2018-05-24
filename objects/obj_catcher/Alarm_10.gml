@@ -14,6 +14,8 @@ with(obj_ball){
 		if(score < 0){
 				
 			other.alarm[2] =  audio_sound_length(snd_angry) * room_speed;
+			obj_gm.pushaway = false;
+			obj_gm.emotional = true;
 		}
 }
 

@@ -3,7 +3,8 @@
 
 spd = 0.5;
 pushaway = false;
-goangry = false;
+bounce = false;
+rage = false;
 pushbackdelay = 50;
 
 
