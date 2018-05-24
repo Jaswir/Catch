@@ -25,9 +25,8 @@ if(obj_gm.pushaway){
 	}
 	
 	if(obj_ball.lifes == 0){
-		obj_ball.active = true;
 		obj_gm.alarm[0] = 1;
-		alarm[11] = 1;	
+		alarm[10] = 1;	
 		exit;
 	}
 

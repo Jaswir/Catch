@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "1ad76cb8-fe93-4840-90eb-8dc62ba9c02b",
-            "Value": {
-                "id": "7c7b9eba-3a52-44b1-8293-bf8da780f1e7",
-                "resourcePath": "sounds\\snd_appear\\snd_appear.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "1b375033-97d8-4192-bab2-27875e2d0121",
             "Value": {
                 "id": "3b85cb85-051c-4add-a131-d4a8b5d0d528",
@@ -287,30 +279,6 @@
             }
         },
         {
-            "Key": "865a62a4-bdfe-418b-b3a7-f75f8d11ed83",
-            "Value": {
-                "id": "4b3e0cf1-58a6-4b60-a9f1-eab5612dceb4",
-                "resourcePath": "sounds\\snd_extrapush\\snd_extrapush.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "8a86d61e-056a-45af-8390-3f134f1ac335",
-            "Value": {
-                "id": "fca4148b-2d0d-46dc-8596-a239d93e934f",
-                "resourcePath": "sounds\\snd_left\\snd_left.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "8d4bdbee-e9b1-4909-bc22-41762009a36f",
-            "Value": {
-                "id": "d22acc58-3dd7-4727-9d54-e6492eee8bc9",
-                "resourcePath": "sounds\\snd_submission\\snd_submission.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "90d57dbd-d97f-4b23-a9b0-78427dd2e0cd",
             "Value": {
                 "id": "7b0f2319-a492-4f08-b52f-79cf2d5e533f",
@@ -423,14 +391,6 @@
             }
         },
         {
-            "Key": "cb7c4f89-aa5f-476f-91e1-157007fbc52b",
-            "Value": {
-                "id": "1f0ae4fa-d916-412d-abe7-8f6e7698e671",
-                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "8c51be50-1e3e-4127-a352-90092405ec4d",
@@ -444,6 +404,14 @@
                 "id": "1e9c6e81-ba4b-4e9e-a7c0-09df93173b35",
                 "resourcePath": "views\\cd854d75-1b5d-45bb-b033-da6d7f466d24.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3bbdf03-34f5-4ad6-8cec-8affd8ffbf63",
+            "Value": {
+                "id": "1cfd2172-de79-45c1-a0b3-f60ec4b16404",
+                "resourcePath": "sounds\\snd_angry\\snd_angry.yy",
+                "resourceType": "GMSound"
             }
         },
         {

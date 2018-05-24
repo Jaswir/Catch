@@ -8,13 +8,9 @@ with(obj_ball){
 			audio_sound_pitch(sound, 0.5 + score * 0.1);
 			speed = 0;
 			spd = 0.0;				
-			if(score > 0) alarm[0] = 15;
+			alarm[0] = 15;
 			active = false;	
+
 		}
 }
 
-if(score < 0){
-	
-	//flip
-	show_message("Flip");
-}
