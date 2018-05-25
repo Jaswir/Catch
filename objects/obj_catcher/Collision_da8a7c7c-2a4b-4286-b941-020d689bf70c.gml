@@ -11,10 +11,18 @@ caught = true;
 
 if(obj_gm.bounce){
 	
+	if(obj_ball.lifes == 0){
+		obj_gm.lifes += 2;
+		alarm[9] = 1;	
+		exit;
+	}
+	
 	with(obj_ball){
 		speed = 0;
 		spd = 0.0;		
-		alarm[2] = 1;		
+		alarm[2] = 1;	
+		lifes--;
+		
 	}
 	
 	exit;

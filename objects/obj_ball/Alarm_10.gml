@@ -4,6 +4,8 @@ obj_gm.rage = false;
 obj_gm.bounce = true;
 sprite_index = spr_bouncy_ball;
 
+
+
 //Sets bounce checkpoint
 ini_open("Save.sav");
 ini_write_real("Data", "checkpoint_bounce", 1); 
