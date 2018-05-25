@@ -453,14 +453,6 @@
                 "resourcePath": "views\\f98e485e-5422-4627-93b4-ad85795c4982.yy",
                 "resourceType": "GMFolder"
             }
-        },
-        {
-            "Key": "fb8bb765-f1f5-47d6-b694-84fd7957a357",
-            "Value": {
-                "id": "0303892f-065b-4b3b-ba42-58bb36501234",
-                "resourcePath": "sounds\\snd_losescore\\snd_losescore.yy",
-                "resourceType": "GMSound"
-            }
         }
     ],
     "script_order": [

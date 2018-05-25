@@ -9,14 +9,12 @@ if(caught) exit
 image_index = 1;
 caught = true;
 
-
 if(obj_gm.bounce){
 	
 	with(obj_ball){
-			speed = 0;
-			spd = 0.0;		
-			alarm[2] = 1;
-		
+		speed = 0;
+		spd = 0.0;		
+		alarm[2] = 1;		
 	}
 }
 
@@ -43,7 +41,6 @@ if(obj_gm.pushaway){
 	}
 
 	
-
 	alarm[0] = obj_gm.pushbackdelay
 	obj_gm.pushbackdelay = 1;
 	obj_ball.lifes--;
