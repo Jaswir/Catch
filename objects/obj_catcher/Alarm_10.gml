@@ -2,20 +2,22 @@
 
 with(obj_ball){
 	
-		if(spd == 0.0) exit;
-		
-		score++;
-		var sound = audio_play_sound(snd_score, 1, false);
-		audio_sound_pitch(sound, 0.5 + score * 0.1);
+		if(speed == 0) exit;
+
 		speed = 0;
 		spd = 0.0;				
-		if(score > 0) alarm[0] = 15;
+		if(score >= 0){				
+			score++;
+			var sound = audio_play_sound(snd_score, 1, false);
+			audio_sound_pitch(sound, 0.5 + score * 0.1);
+			alarm[0] = 15;
+		}
+		else{
 			
-		if(score < 0){
-				
-			other.alarm[2] =  audio_sound_length(snd_angry) * room_speed;
 			obj_gm.pushaway = false;
 			obj_gm.rage = true;
+			obj_score.alarm[0] =  audio_sound_length(snd_angry) * room_speed;
+		
 		}
 }
 

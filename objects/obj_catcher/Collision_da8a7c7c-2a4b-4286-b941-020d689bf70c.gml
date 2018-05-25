@@ -40,7 +40,7 @@ if(obj_gm.pushaway){
 		exit;
 	}
 
-	
+
 	alarm[0] = obj_gm.pushbackdelay
 	obj_gm.pushbackdelay = 1;
 	obj_ball.lifes--;
@@ -49,5 +49,5 @@ if(obj_gm.pushaway){
 }
 
 alarm[11] = 1;
-
+show_debug_message("Normal catch");
 

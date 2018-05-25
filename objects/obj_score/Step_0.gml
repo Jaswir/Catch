@@ -4,7 +4,6 @@
 
 if(score == 9 && !obj_gm.pushaway){
 	
-	show_message("BANZAII!");
 	//Sets push checkpoint
 	ini_open("Save.sav");
 	ini_write_real("Data", "checkpoint_push", 1); 
