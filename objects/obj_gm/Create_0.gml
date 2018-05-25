@@ -16,7 +16,14 @@ lifes = 0;
 //Load saves
 ini_open("Save.sav");
 var checkpoint_push_reached = ini_read_real("Data", "checkpoint_push", 0); 
-if(checkpoint_push_reached){
+var checkpoint_bounce_reached = ini_read_real("Data", "checkpoint_bounce", 0); 
+
+if(checkpoint_bounce_reached){
+	obj_gm.bounce = true;
+	obj_ball.sprite_index = spr_bouncy_ball;
+	score = 1;
+}
+else if(checkpoint_push_reached){
 	score = 9;
 	pushaway = true;	
 	alarm[0] = 1;	

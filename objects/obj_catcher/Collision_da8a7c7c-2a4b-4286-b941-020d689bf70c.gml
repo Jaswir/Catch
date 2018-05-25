@@ -16,6 +16,8 @@ if(obj_gm.bounce){
 		spd = 0.0;		
 		alarm[2] = 1;		
 	}
+	
+	exit;
 }
 
 if(obj_gm.pushaway){
@@ -49,5 +51,4 @@ if(obj_gm.pushaway){
 }
 
 alarm[11] = 1;
-show_debug_message("Normal catch");
 
