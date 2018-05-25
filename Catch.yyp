@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "e93ac4b4-9a42-4395-8b37-877b81355531",
+            "Value": {
+                "id": "88e0e4cd-3f5e-4058-bbdc-101ebc3fe46f",
+                "resourcePath": "fonts\\fnt_restart\\fnt_restart.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "edefee83-197a-44bb-b7ab-77d899b8b946",
             "Value": {
                 "id": "0c79af87-877d-45e7-89cf-c337db2d9e24",
