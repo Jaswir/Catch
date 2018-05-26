@@ -10,3 +10,4 @@ speed = 1;
 obj_gm.lifes = 3;
 lifes = obj_gm.lifes;
 active = true;
+obj_blinking_cursor.visible = true;

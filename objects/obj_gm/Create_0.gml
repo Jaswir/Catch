@@ -6,8 +6,9 @@ pushaway = false;
 bounce = false;
 bounces = 0;
 bouncelifes = 3;
+bouncedelay = 150;
 rage = false;
-pushbackdelay = 300;
+pushbackdelay = 150;
 
 pushstate = 0;
 lifes = 0;
