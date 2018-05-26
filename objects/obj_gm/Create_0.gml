@@ -9,7 +9,7 @@ bouncelifes = 3;
 bouncedelay = 150;
 rage = false;
 pushbackdelay = 150;
-
+pushlifes = 3;
 pushstate = 0;
 lifes = 0;
 
@@ -26,7 +26,7 @@ if(checkpoint_bounce_reached){
 	score = 1;
 }
 else if(checkpoint_push_reached){
-	score = 9;
+	score = 4;
 	pushaway = true;
 	alarm[0] = 1;	
 }

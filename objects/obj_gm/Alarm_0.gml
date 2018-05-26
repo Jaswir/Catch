@@ -4,7 +4,4 @@
 if(!pushaway) exit;
 
 pushstate++;
-lifes = 3;
 
-
-show_message("Pushstate: " + string(pushstate));
