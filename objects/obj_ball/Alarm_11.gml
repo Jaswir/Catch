@@ -8,3 +8,4 @@ alarm[10] = 45;
 //Prepare for bounce
 speed = 1;
 lifes = 3;
+active = true;

@@ -5,6 +5,7 @@ spd = 0.5;
 pushaway = false;
 bounce = false;
 bounces = 0;
+bouncelifes = 3;
 rage = false;
 pushbackdelay = 50;
 

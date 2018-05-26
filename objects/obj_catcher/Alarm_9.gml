@@ -8,7 +8,7 @@ with(obj_ball){
 			spd = 0.0;		
 			active = false;	
 			
-			if(obj_gm.lifes > 7){
+			if(obj_gm.bouncelifes > 7){
 				obj_score.alarm[1] =  audio_sound_length(snd_angry) * room_speed;
 				exit;
 			}
