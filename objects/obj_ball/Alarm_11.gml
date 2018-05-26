@@ -6,7 +6,6 @@ image_speed = 2;
 alarm[10] = 45;
 
 //Prepare for bounce
-speed = 1;
 obj_gm.lifes = 3;
 lifes = obj_gm.lifes;
 active = true;

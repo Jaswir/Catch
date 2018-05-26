@@ -4,4 +4,5 @@
 if(!pushaway) exit;
 
 pushstate++;
+lifes = 3;
 

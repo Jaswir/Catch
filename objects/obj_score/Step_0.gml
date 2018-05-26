@@ -10,6 +10,6 @@ if(score == 4 && !obj_gm.pushaway ){
 	ini_close();
 	
 	obj_gm.pushaway = true;	
-	obj_gm.lifes = 3;
+	obj_gm.alarm[0] = 1;
 }
 
