@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "4174a1d4-a026-4fb7-845f-a86e0cd4ddc1",
+            "Value": {
+                "id": "3bc6a280-9dbf-4ff4-81e6-0b9f23e174e1",
+                "resourcePath": "sprites\\spr_scorebox\\spr_scorebox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41d05aa0-c189-41b4-8a33-674f71480a99",
             "Value": {
                 "id": "dd8ca0ce-c3e3-4f05-bf56-06591ad1912f",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "a1a9241c-3aa5-459e-8372-01f225094bca",
+            "Value": {
+                "id": "2320e697-e765-485b-b42c-0504865add2b",
+                "resourcePath": "sounds\\snd_explosion\\snd_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a58ab9ce-234b-47b2-bce8-142571b27b9e",
             "Value": {
                 "id": "508f2373-c804-4789-99e8-500eda1b2041",
@@ -391,6 +407,14 @@
             }
         },
         {
+            "Key": "c1af74e9-51f1-4001-8ca5-6ccdd6aa43fa",
+            "Value": {
+                "id": "257f78d5-459a-4ef8-be81-bc2a237e42cf",
+                "resourcePath": "objects\\obj_dirt_effect\\obj_dirt_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c286e49d-770a-40c7-b6d5-232007096735",
             "Value": {
                 "id": "a7aa8772-fa8d-44d8-b8e6-2ec73f75f52f",
@@ -402,7 +426,7 @@
             "Key": "c33c35b7-8089-47a4-8f2a-8305af615d8a",
             "Value": {
                 "id": "9caecadc-f36e-4ef1-b3af-6179f899ccd2",
-                "resourcePath": "objects\\obj_score1\\obj_score1.yy",
+                "resourcePath": "objects\\obj_bbscore\\obj_bbscore.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -436,6 +460,14 @@
                 "id": "1e9c6e81-ba4b-4e9e-a7c0-09df93173b35",
                 "resourcePath": "views\\cd854d75-1b5d-45bb-b033-da6d7f466d24.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d19157ed-70e3-45ce-b84d-ccc1a2b09713",
+            "Value": {
+                "id": "39a704f0-130c-444f-9d2b-1f7cae42bf04",
+                "resourcePath": "sounds\\snd_shake\\snd_shake.yy",
+                "resourceType": "GMSound"
             }
         },
         {
