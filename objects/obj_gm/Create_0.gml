@@ -7,7 +7,7 @@ bounce = false;
 bounces = 0;
 bouncelifes = 3;
 rage = false;
-pushbackdelay = 50;
+pushbackdelay = 300;
 
 pushstate = 0;
 lifes = 0;

@@ -1,17 +1,14 @@
 /// @description Push Back
 // You can write your code in this editor
 
-
-
-
 var sound = audio_play_sound(snd_pushaway, 1, false);
 audio_sound_pitch(sound, 1.0);
 
 
 //Pushes back catcher
-var balltocatch = point_direction(obj_ball.x, obj_ball.y , x, y);
+var balltocatch = point_direction(x, y, obj_ball.x, obj_ball.y);
 var pushbackdir = random_range(balltocatch - 90, balltocatch + 90);
-speed = 15;
+speed = 15 * obj_gm.pushstate;
 direction = pushbackdir;
 
 //Pushes back ball

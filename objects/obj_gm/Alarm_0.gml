@@ -7,4 +7,4 @@ pushstate++;
 if(pushstate == 1)
 	lifes = 3;
 else if(pushstate == 3)
-	lifes = 5;
+	lifes = 3;
