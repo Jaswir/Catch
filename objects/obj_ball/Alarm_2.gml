@@ -4,7 +4,7 @@
 
 var dirtocatch = point_direction(obj_catcher.x, obj_catcher.y, x, y);
 direction = dirtocatch;
-speed = obj_gm.bouncelifes + 2 + obj_gm.bounces * 0.2;
+speed = 3 + obj_gm.bounces * 0.7;
 image_speed = 5;
 obj_gm.bounces++;
 

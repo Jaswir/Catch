@@ -15,6 +15,11 @@ with(obj_ball){
 			obj_gm.rage = true;	
 			obj_score.alarm[0] =  audio_sound_length(snd_angry) * room_speed;	
 			
+			//Sets bounce checkpoint
+			ini_open("Save.sav");
+			ini_write_real("Data", "checkpoint_bounce", 1); 
+			ini_close();
+			
 		}
 		
 		else{	

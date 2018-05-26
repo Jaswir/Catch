@@ -7,7 +7,3 @@ alarm[2] = 1;
 
 
 
-//Sets bounce checkpoint
-ini_open("Save.sav");
-ini_write_real("Data", "checkpoint_bounce", 1); 
-ini_close();

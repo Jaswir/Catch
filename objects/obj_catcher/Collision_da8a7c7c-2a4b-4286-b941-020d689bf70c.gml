@@ -11,7 +11,6 @@ caught = true;
 if(obj_gm.bounce){
 	
 	if(obj_ball.lifes == 0){		
-		obj_gm.bouncelifes += 2;
 		alarm[9] = 1;	
 		exit;
 	}
