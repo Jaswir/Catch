@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if(score == 9 && !obj_gm.pushaway){
+if(score == 9 && !obj_gm.pushaway ){
 	
 	//Sets push checkpoint
 	ini_open("Save.sav");

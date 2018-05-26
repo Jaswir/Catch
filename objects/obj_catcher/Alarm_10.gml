@@ -19,5 +19,6 @@ with(obj_ball){
 			obj_score.alarm[0] =  audio_sound_length(snd_angry) * room_speed;
 		
 		}
+		
 }
 

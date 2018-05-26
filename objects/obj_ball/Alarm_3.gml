@@ -12,3 +12,4 @@ spd = obj_gm.spd;
 direction = 270;
 active = true;
 lifes = obj_gm.lifes;
+

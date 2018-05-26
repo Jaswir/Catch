@@ -7,5 +7,6 @@ alarm[10] = 45;
 
 //Prepare for bounce
 speed = 1;
-lifes = 3;
+obj_gm.lifes = 3;
+lifes = obj_gm.lifes;
 active = true;
