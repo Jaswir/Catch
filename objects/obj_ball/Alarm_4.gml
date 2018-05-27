@@ -6,7 +6,7 @@ var sound = audio_play_sound(snd_pushaway, 1, false);
 audio_sound_pitch(sound, 1.0);
 
 
-//Pushes back catcher
+//Pushes back ball
 var pushbackdir = random_range(0 , 360);
 speed = 5;
 direction = pushbackdir;

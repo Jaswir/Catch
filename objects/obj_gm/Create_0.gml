@@ -23,6 +23,7 @@ var checkpoint_bounce_reached = ini_read_real("Data", "checkpoint_bounce", 0);
 if(checkpoint_bounce_reached){
 	lifes = 3;
 	bounce = true;
+	ragecount = 1;
 	obj_ball.sprite_index = spr_bouncy_ball;
 	score = 1;
 }

@@ -6,8 +6,4 @@ audio_sound_pitch(sound, 0.5 + score * 0.1);
 
 if(score < 1) alarm[0] = 5;
 		
-else 
-{
-	obj_blinking_cursor.visible = false;
-	obj_ball.alarm[11] = obj_gm.bouncedelay;
-}
+else obj_ball.alarm[11] = obj_gm.bouncedelay;

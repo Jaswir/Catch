@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!obj_gm.ragewild) exit;
+
 speed = 0;
 spd = 0.0;		
 

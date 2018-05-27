@@ -4,11 +4,24 @@
 if(obj_gm.rage) exit;	
 if(caught) exit
 
-
 image_index = 1;
 caught = true;
 
-if(obj_gm.bounce){
+if(obj_gm.ragewild){
+	
+	with(obj_ball){
+		if(active){
+					
+			speed = 0;
+			spd = 0.0;		
+			active = false;
+		}
+	}
+	
+	alarm[0] = 1;
+	exit;
+}
+else if(obj_gm.bounce){
 	
 	if(obj_ball.lifes == 0){		
 		alarm[9] = 1;	
@@ -26,7 +39,7 @@ if(obj_gm.bounce){
 	exit;
 }
 
-if(obj_gm.pushaway){
+else if(obj_gm.pushaway){
 
 	with(obj_ball){
 		if(active){
