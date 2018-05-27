@@ -7,7 +7,17 @@ if(caught) exit
 image_index = 1;
 caught = true;
 
-if(obj_gm.ragewild){
+if(obj_gm.vulnerable){
+		
+		audio_play_sound(snd_win, 1, false);
+		instance_create_layer(x, y, "Instances", obj_caught);
+		with(obj_ball){
+			speed = 0;
+			spd = 0.0;			
+		}
+	
+}
+else if(obj_gm.ragewild){
 	
 	with(obj_ball){
 		if(active){

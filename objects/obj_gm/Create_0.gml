@@ -13,6 +13,7 @@ pushbackdelay = 150;
 pushlifes = 3;
 pushstate = 0;
 lifes = 0;
+vulnerable = false;
 
 
 //Load saves

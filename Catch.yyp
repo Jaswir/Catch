@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "6757d6e0-499b-474f-986a-3059f9c56832",
+            "Value": {
+                "id": "b23727a9-c03d-4b7f-8447-f8111a91fe74",
+                "resourcePath": "sounds\\snd_win\\snd_win.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "697f15f3-5740-4fbd-bd8e-56b1e3146742",
             "Value": {
                 "id": "59b5110c-c75f-44bb-99e2-130a3ebb2ed1",
