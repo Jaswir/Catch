@@ -7,6 +7,7 @@ bounce = false;
 bounces = 0;
 bouncedelay = 150;
 rage = false;
+ragewild = false;
 ragecount = 0;
 pushbackdelay = 150;
 pushlifes = 3;

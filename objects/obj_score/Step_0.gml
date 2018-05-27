@@ -13,3 +13,23 @@ if(score == 4 && !obj_gm.pushaway ){
 	obj_gm.alarm[0] = 1;
 }
 
+
+//if(shakeintensity >= 10 && !falling){
+	
+//	speed = 4;
+//	direction = 270;
+//	spd = 0.3;
+//	falling = true;
+//}
+
+
+
+//if(falling && !grounded){
+//	speed += spd;
+//	if( y + sprite_height / 2 > 600){
+//		speed = 0;
+//		grounded = true;
+				
+//		instance_destroy();
+//	}
+//}
