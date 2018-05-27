@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-score = 1;
 spd = 0.0;
 shakeduration= 10;
 shakeintensity = 3.0;
